@@ -11,9 +11,9 @@ The last 3 updates pushed here, newest first.
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Thu 26 Nov 2026, 6:02:47 PM UAE<br><sub>Thu 26 Nov 2026, 2:02:47 PM UTC</sub> | cloud files in your own Supabase (folders, Files page, home Cloud tab), set up in Settings as in X-Jobs; audit fixes | v1.1.7 | [`bd5f760`](https://github.com/jerrin-v/xsim-rv/commit/bd5f760f9ab82c915148df70f8de2c3f7c4e3ca2) |
 | Sat 21 Nov 2026, 8:54:42 PM UAE<br><sub>Sat 21 Nov 2026, 4:54:42 PM UTC</sub> | full audit: phone and dark-theme layout fixes, accessibility (contrast, targets, landmarks, focus), code cleanup | v1.1.1 | [`f5307bd`](https://github.com/jerrin-v/xsim-rv/commit/f5307bd93fc5623a53b428bbcd6f6f5ad7a0bd85) |
 | Sat 21 Nov 2026, 6:10:34 PM UAE<br><sub>Sat 21 Nov 2026, 2:10:34 PM UTC</sub> | camera button on the view cube: perspective or a flat view without depth | v1.1.0 | [`09866fd`](https://github.com/jerrin-v/xsim-rv/commit/09866fd1c92bd7739294e89d53ff40a0bd39e5cb) |
-| Sat 21 Nov 2026, 4:10:20 PM UAE<br><sub>Sat 21 Nov 2026, 12:10:20 PM UTC</sub> | contact between parts (press, slide and separate), and checks before a run with one-click fixes | v1.0.99 | [`0ce16f0`](https://github.com/jerrin-v/xsim-rv/commit/0ce16f00fa3347b1f740bc3270cfcfc262a72b87) |
 <!-- latest-updates:end -->
 
 ## Open it
