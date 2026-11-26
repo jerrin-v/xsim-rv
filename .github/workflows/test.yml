@@ -79,7 +79,7 @@ jobs:
           npm install --no-audit --no-fund --silent
           python3 -m pip install --quiet --break-system-packages playwright
           export CHROME="$(command -v google-chrome || command -v chromium-browser || command -v chromium)"
-          for t in guided examples threads server files agent login; do
+          for t in guided examples threads server files agent cloud login; do
             echo "=== $t"
             python3 "tests/browser/test_$t.py" 2>&1 | tail -n 3
           done
