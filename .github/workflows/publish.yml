@@ -1,7 +1,7 @@
 # Publishes X-Sim RV as a website on GitHub Pages, behind a sign-in page: https://jerrin-v.github.io/xsim-rv/
 # The repo holds the app only sealed (backup/xsim-rv.tar.gz.age). This workflow opens it with the SITE_BACKUP_KEY
-# secret, locks the app for the users in the SITE_USERS secret with the backup's own tools/site-lock.mjs, and
-# publishes that one locked page. Neither secret is ever printed; without them nothing is published.
+# secret, builds the sign-in page with the app inside it using the backup's own tools/site-build.mjs, and publishes
+# that one page. The secret is never printed; without it nothing is published.
 # Runs after every push to main, and from Actions → "Publish site" → Run workflow.
 # The "Update log" workflow's own README commit never starts this one (it is made with the workflow token).
 name: Publish site
@@ -26,13 +26,11 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Check the secrets
+      - name: Check the secret
         env:
           SITE_BACKUP_KEY: ${{ secrets.SITE_BACKUP_KEY }}
-          SITE_USERS: ${{ secrets.SITE_USERS }}
         run: |
           if [ -z "$SITE_BACKUP_KEY" ]; then echo "::error::The SITE_BACKUP_KEY secret is missing. Nothing was published."; exit 1; fi
-          if [ -z "$SITE_USERS" ]; then echo "::error::The SITE_USERS secret is missing. Nothing was published."; exit 1; fi
 
       - name: Install age
         run: sudo apt-get update -qq && sudo apt-get install -y -qq age >/dev/null
@@ -53,11 +51,9 @@ jobs:
         with:
           node-version: 24
 
-      - name: Lock the app for the users in SITE_USERS
-        env:
-          SITE_USERS: ${{ secrets.SITE_USERS }}
+      - name: Build the sign-in page with the app inside
         run: |
-          node "$RUNNER_TEMP/app/tools/site-lock.mjs" "$RUNNER_TEMP/app/index.html" _site/index.html
+          node "$RUNNER_TEMP/app/tools/site-build.mjs" "$RUNNER_TEMP/app/index.html" _site/index.html
           rm -rf "$RUNNER_TEMP/app"
 
       - uses: actions/upload-pages-artifact@v5

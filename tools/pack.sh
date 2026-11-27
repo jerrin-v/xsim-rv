@@ -9,7 +9,7 @@ set -e
 src=$(cd "$1" && pwd)
 cd "$(dirname "$0")/.."
 command -v age >/dev/null 2>&1 || { echo "age is not installed: apt-get install -y age (Linux) or brew install age (Mac)" >&2; exit 1; }
-for f in index.html xsim-rv-server.js package.json build.py src/login.html tools/site-lock.mjs; do
+for f in index.html xsim-rv-server.js package.json build.py src/login.html tools/site-build.mjs; do
   [ -f "$src/$f" ] || { echo "$src is not an X-Sim RV folder: $f is missing." >&2; exit 1; }
 done
 case "$src/" in "$(pwd)/"*) echo "Open the backup outside this repo, not inside it." >&2; exit 1 ;; esac

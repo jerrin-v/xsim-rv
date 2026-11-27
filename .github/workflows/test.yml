@@ -63,7 +63,7 @@ jobs:
         run: |
           node tests/solvers.test.js | tail -n 40
           node tests/server.test.js | tail -n 5
-          node tests/site-lock.test.mjs | tail -n 5
+          node tests/site-build.test.mjs | tail -n 5
 
       - name: Benchmark cases
         if: matrix.suite == 'physics'

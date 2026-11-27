@@ -18,9 +18,9 @@ hidden and files save as normal downloads. Never commit the opened files back in
 
 ## 2. Publish it as a website again
 
-The **Publish site** workflow (`.github/workflows/publish.yml`) opens the backup, locks `index.html` behind the sign-in page
-and puts the locked page on GitHub Pages after every push to main, at `https://jerrin-v.github.io/xsim-rv/`. A new repo or
-account needs the two repository secrets named in the workflow first, and one setting, made once: **Settings → Pages →
+The **Publish site** workflow (`.github/workflows/publish.yml`) opens the backup, puts the app inside the sign-in page
+and puts that page on GitHub Pages after every push to main, at `https://jerrin-v.github.io/xsim-rv/`. A new repo or
+account needs the repository secret named in the workflow first, and one setting, made once: **Settings → Pages →
 Build and deployment → Source: GitHub Actions**. Then **Actions → Publish site → Run workflow**, and put the new address on
 the `Website:` line at the top of the README and in the repo's About box.
 
