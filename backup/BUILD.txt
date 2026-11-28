@@ -1,1 +1,1 @@
-app: X-Sim RV v1.1.17 · packed 2026-11-28T09:20:59Z
+app: X-Sim RV v1.1.18 · packed 2026-11-28T11:20:02Z
