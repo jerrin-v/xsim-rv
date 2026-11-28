@@ -11,9 +11,9 @@ The last 3 updates pushed here, newest first.
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Sat 28 Nov 2026, 1:20:59 PM UAE<br><sub>Sat 28 Nov 2026, 9:20:59 AM UTC</sub> | X-Jobs look element by element, X Lab yellow, new home page, Lucide icons, Barlow, Profile settings, confirmations | v1.1.17 | [`b10fb9d`](https://github.com/jerrin-v/xsim-rv/commit/b10fb9dfa467d12b5b3d316679077277808ae284) |
 | Fri 27 Nov 2026, 5:40:44 PM UAE<br><sub>Fri 27 Nov 2026, 1:40:44 PM UTC</sub> | the sign-in page asks only for email and password | v1.1.10 | [`4d09a6b`](https://github.com/jerrin-v/xsim-rv/commit/4d09a6b446041d635d5d82a47271a5945d34f472) |
 | Fri 27 Nov 2026, 5:16:17 PM UAE<br><sub>Fri 27 Nov 2026, 1:16:17 PM UTC</sub> | the X-Jobs look in Rajdhani with mint main buttons, and sign-in with the database login | v1.1.9 | [`5bc91ab`](https://github.com/jerrin-v/xsim-rv/commit/5bc91ab2a8314098032ed7cd4d91ff62cc551d40) |
-| Thu 26 Nov 2026, 6:02:47 PM UAE<br><sub>Thu 26 Nov 2026, 2:02:47 PM UTC</sub> | cloud files in your own Supabase (folders, Files page, home Cloud tab), set up in Settings as in X-Jobs; audit fixes | v1.1.7 | [`bd5f760`](https://github.com/jerrin-v/xsim-rv/commit/bd5f760f9ab82c915148df70f8de2c3f7c4e3ca2) |
 <!-- latest-updates:end -->
 
 ## Open it
