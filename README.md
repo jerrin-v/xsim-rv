@@ -11,9 +11,9 @@ The last 3 updates pushed here, newest first.
 <!-- latest-updates:start -->
 | Updated | Change | Version | Commit |
 | --- | --- | --- | --- |
+| Sat 28 Nov 2026, 4:36:12 PM UAE<br><sub>Sat 28 Nov 2026, 12:36:12 PM UTC</sub> | sign-in slides back, pill switches, Settings foot, green connection state, reworked file rows, even text sizes | v1.1.20 | [`6ae601c`](https://github.com/jerrin-v/xsim-rv/commit/6ae601caba389e28bfaea01a5a8ed98b26713f3c) |
 | Sat 28 Nov 2026, 3:20:02 PM UAE<br><sub>Sat 28 Nov 2026, 11:20:02 AM UTC</sub> | home and sign-in measured against X-Jobs, file browser on the start screen, yellow primary, no container shadows | v1.1.18 | [`2f87fab`](https://github.com/jerrin-v/xsim-rv/commit/2f87fabefb56eff72e92444c6dc1cab3228423dc) |
 | Sat 28 Nov 2026, 1:20:59 PM UAE<br><sub>Sat 28 Nov 2026, 9:20:59 AM UTC</sub> | X-Jobs look element by element, X Lab yellow, new home page, Lucide icons, Barlow, Profile settings, confirmations | v1.1.17 | [`b10fb9d`](https://github.com/jerrin-v/xsim-rv/commit/b10fb9dfa467d12b5b3d316679077277808ae284) |
-| Fri 27 Nov 2026, 5:40:44 PM UAE<br><sub>Fri 27 Nov 2026, 1:40:44 PM UTC</sub> | the sign-in page asks only for email and password | v1.1.10 | [`4d09a6b`](https://github.com/jerrin-v/xsim-rv/commit/4d09a6b446041d635d5d82a47271a5945d34f472) |
 <!-- latest-updates:end -->
 
 ## Open it
